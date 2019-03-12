@@ -19,7 +19,10 @@ body {
     background: blanchedalmond;
     opacity: 0.6;
     display: flex;
-    color: dimgray;
+    border-color: slategrey;
+    color: orange;
 }
 
-.cardList {}
+.card :hover {
+    color: black;
+}
